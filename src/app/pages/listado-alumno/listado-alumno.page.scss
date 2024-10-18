@@ -1,0 +1,25 @@
+.container{
+    text-align: center;
+}
+
+.boton{
+    text-align: center;
+}
+
+
+.icon-title-container {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .icon-title-container ion-icon {
+    margin-right: 8px; 
+  }
+
+  .img-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente, si se desea */
+    margin-top: 20px; /* Espaciado opcional */
+  }
+  

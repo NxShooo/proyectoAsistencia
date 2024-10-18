@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="success">
+    <ion-title class="titulo"></ion-title>
+
+    <ion-button color="success" slot="end" [routerLink]="['/listado-profe']">
+      <ion-icon name="log-in-sharp" size="large"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="container" [fullscreen]="true">
+  <ion-card> 
+    <h5>En esta parte debe ir el código QR</h5>
+    <div class="temporizador" style="text-align: center;">
+      <ion-item class="temporizador-item">
+        <span class="temporizador-text">02:00</span>
+      </ion-item>
+    </div>
+  </ion-card>
+</ion-content>

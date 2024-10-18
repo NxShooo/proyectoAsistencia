@@ -1,0 +1,47 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="tertiary"> 
+    <ion-button color="tertiary" slot="end" [routerLink]="['/listado-alumno']">
+      <ion-icon name="log-in-sharp" size="large"></ion-icon>
+    </ion-button>
+    <ion-title class="titulo">Asistencia</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Porcentaje de Asistencia</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <div class="asistencia-container">
+        <div class="clase">
+          <h5>Pokémon Yellow</h5>
+          <ion-progress-bar value="0.9" color="primary"></ion-progress-bar>
+          <span>90%</span>
+        </div>
+        <div class="clase">
+          <h5>Mega Man X</h5>
+          <ion-progress-bar value="0.75" color="primary"></ion-progress-bar>
+          <span>75%</span>
+        </div>
+        <div class="clase">
+          <h5>The Legend of Zelda</h5>
+          <ion-progress-bar value="0.5" color="primary"></ion-progress-bar>
+          <span>50%</span>
+        </div>
+        <div class="clase">
+          <h5>Pac-Man</h5>
+          <ion-progress-bar value="0.3" color="primary"></ion-progress-bar>
+          <span>30%</span>
+        </div>
+        <div class="clase">
+          <h5>Super Mario World</h5>
+          <ion-progress-bar value="1.0" color="primary"></ion-progress-bar>
+          <span>100%</span>
+        </div>
+      </div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+

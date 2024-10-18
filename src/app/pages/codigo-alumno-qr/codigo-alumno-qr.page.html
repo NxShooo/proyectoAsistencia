@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="tertiary">
+    <ion-button color="tertiary"slot="end" [routerLink]="['/listado-alumno']">
+      <ion-icon name="log-in-sharp" size="large"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="escaner">
+    <ion-card>
+      <ion-card-title>
+        <h5>Por favor escanee el código en la pantalla</h5>
+      </ion-card-title>
+      <img src="../../../assets/img/escaner.jpg" alt="">
+    </ion-card>
+    <br>
+    <ion-card>
+      <ion-button [routerLink]="['/sala-espera']">
+        <ion-icon name="person-add-outline"></ion-icon>
+      </ion-button>
+    </ion-card>
+  </div>
+</ion-content>
+
+

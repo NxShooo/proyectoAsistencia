@@ -1,0 +1,19 @@
+.titulo{
+    text-align: center;
+}
+
+ion-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;  
+    text-align: center;   
+    padding: 20px;        
+}
+
+.tablas{
+    border: 1px solid #ccc; /* Color y grosor del borde */
+    padding: 8px;
+    text-align: center;
+    box-sizing: border-box;
+}

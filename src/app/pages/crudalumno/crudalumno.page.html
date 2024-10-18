@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>comprobando</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div>
+    <h2>grabar</h2>
+    <ion-input [(ngModel)]="alumno.nombre" label="nombre" placeholder="ingrese nombre"></ion-input>
+    <ion-input [(ngModel)]="alumno.password" label="password" placeholder="ingrese password"></ion-input>
+    <ion-button (click)="guardar()">grabar</ion-button>
+  </div>
+  <div>
+    <h2>listado</h2>
+    <ion-list>
+      <ion-item * ngfor="let alum of listar">
+        {{alumno.nombre}} {{alumno.password}}
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

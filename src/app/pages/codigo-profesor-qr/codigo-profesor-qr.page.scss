@@ -1,0 +1,25 @@
+.titulo{
+    text-align: center;
+}
+
+.temporizador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0; /* Espaciado superior e inferior */
+  }
+  
+  .temporizador-item {
+    font-size: 2rem; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Negrita */
+    color: #000000; /* Color llamativo */
+    background-color: #f0f0f0; /* Fondo claro */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    margin-bottom: 15px; /* Espaciado inferior */
+  }
+
+  .temporizador-text {
+    text-align: center;
+  }
